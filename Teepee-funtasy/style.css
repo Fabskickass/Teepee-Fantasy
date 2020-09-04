@@ -1,0 +1,274 @@
+body{
+  font-family:'Mansalva',cursive;
+}
+
+h1{
+  color:#01a9b4;
+}
+
+
+h1, h2, h3{
+  padding-top: 20px;
+  padding-bottom: 30px;
+  line-height: 2;
+  text-align: center;
+  font-family: 'Mansalva',cursive;
+}
+
+h2{
+  text-decoration:underline;
+  text-decoration-style: dotted;
+}
+
+p {
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight:bold;
+  text-align: center;
+  line-height: 2;
+}
+
+
+ul{
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: bold;
+  line-height: 2;
+  padding-left: 25%;
+  text-align: left;
+}
+
+footer{
+  text-align: center;
+}
+
+.signature{
+  font-size: 15px;
+  color:#838383;
+}
+
+/* Navigation-section */
+
+.logo{
+  position:static;
+  width:150px;
+
+}
+
+.icon{
+  padding:0 15px;
+}
+
+.social-icon{
+  color: #f67280;
+  padding:40px 30px 50px 30px;
+}
+
+
+.social-icon:hover{
+  color:#ffd5e5;
+}
+
+.navbar-brand{
+  font-family: 'Mansalva', cursive;
+  padding-right: 50px;
+  font-weight:bold;
+  color:#f67280;
+  transform: rotate(-20deg);
+}
+
+.navbar-brand:hover{
+  color:#f67280;
+}
+
+.navbar{
+  margin-bottom: 50px;
+
+}
+.nav-link{
+  font-size: 1rem;
+  font-weight: bold;
+  color: #f67280;
+}
+
+.nav-link:hover{
+  color:#ffd5e5;
+}
+
+.nav-item{
+  padding:0 10px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
+}
+
+/* pictures */
+
+.pictures{
+  text-align: center;
+  margin: 0 0 20px 0;
+}
+
+.image-cover{
+  position:static;
+  width:300px;
+  border-style: solid;
+  border-width: thick;
+  border-color: #01a9b4;
+  margin-top: 50%;
+}
+
+.image{
+width:400px;
+position: static;
+border-radius: 10px;
+transition:transform .2s;
+}
+
+.image:hover{
+  transform:scale(1.5);
+}
+
+.flex-container{
+  background-color:#fff;
+  color:black;
+}
+
+#navigation{
+  background-color: #fff;
+  flex: auto;
+  padding:0 100px 0px 100px;
+  color:#838383;
+}
+
+#rentals{
+  background-color: #f67280;
+  color:#ffd5e5;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.customize{
+  text-align: center;
+  position: relative;
+  margin-top: 50px;
+  color:black;
+}
+.card-text{
+  position: relative;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-size: 1.3rem;
+}
+
+.safary{
+  position: relative;
+  z-index:1;
+}
+
+.glamping{
+    background-color: #01a9b4;
+    color:#e4f9ff;
+    padding:30px 0 30px 0;
+}
+.img{
+  text-align: center;
+}
+.rental{
+  padding:30px 0 30px 0;
+  text-align: center;
+}
+
+#services{
+  background-color: #01a9b4;
+  color:#e4f9ff;
+  padding:50px 150px 50px 150px;
+}
+
+.hearthbit{
+  padding-right: 20px;
+}
+
+.form-control {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+
+}
+
+.middle{
+  border-top:0;
+  border-bottom: 0;
+}
+
+.form-control {
+  position: relative;
+  box-sizing: border-box;
+  height: auto;
+  padding: 10px;
+  font-size: 16px;
+}
+.form-control:focus {
+  z-index: 2;
+}
+.form-control input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.form-control input[type="textarea"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+#contact{
+  background-color: #f67280;
+  color:#ffd5e5;
+  padding:50px 150px 50px 150px;
+  text-align: center;
+}
+
+#schedule{
+    padding: 50px 50px 50px 100px;
+    text-align: center;
+}
+
+#questions{
+  text-align: center;
+  padding:50px 150px 50px 150px;
+}
+.title{
+  text-align: center;
+}
+ @media (max-width: 1000px) {
+
+   .navbar-brand{
+     padding-right: 0;
+     margin-right: 0;
+     margin-bottom: 40px;
+     text-align: center;
+     font-weight:bold;
+     color:#01a9b4;
+   }
+    .navbar-toggler-icon{
+     padding-top: 20px;
+     padding-right:0;
+     margin-right: 0;
+     float:right;
+     border-width:none;
+     text-decoration: none;
+   }
+
+   .nav-item{
+     padding-top:0;
+   }
+
+   .image{
+     width:100%;
+   }
+   .image:hover{
+     transform: none;
+   }
+   .pictures{
+     float: right;
+   }
+ }
